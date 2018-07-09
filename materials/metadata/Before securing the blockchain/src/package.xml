@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>ApexClass</name>
+    <members>LedgerScheduleValidation</members>
+    <members>LedgerSupport</members>
+    <members>LedgerTransaction</members>
+    <members>LedgerValidation</members>
+    <members>TestLedgerInsertion</members>
+    <members>TestLedgerValidation</members>
+  </types>
+  <types>
+    <name>Layout</name>
+    <members>Ledger_Entry__c-Ledger Entry Layout</members>
+  </types>
+  <types>
+    <name>CustomField</name>
+    <members>Ledger_Entry__c.Block_Hash__c</members>
+    <members>Ledger_Entry__c.Opportunity_Amount__c</members>
+    <members>Ledger_Entry__c.Opportunity_Name__c</members>
+    <members>Ledger_Entry__c.Prior_Block_Hash__c</members>
+    <members>Ledger_Entry__c.Sequence__c</members>
+    <members>Ledger_Entry__c.Transaction_Date__c</members>
+    <members>Ledger_Entry__c.Transaction_Field_List__c</members>
+    <members>Ledger_Entry__c.Transaction_Hash__c</members>
+  </types>
+  <types>
+    <name>CustomObject</name>
+    <members>Ledger_Entry__c</members>
+  </types>
+  <types>
+    <name>ValidationRule</name>
+    <members>Ledger_Entry__c.Opportunity_Amount_must_be_specified</members>
+    <members>Ledger_Entry__c.Opportunity_name_must_be_specified</members>
+  </types>
+  <types>
+    <name>CustomTab</name>
+    <members>Ledger_Entry__c</members>
+  </types>
+  <types>
+    <name>ApexTrigger</name>
+    <members>OnInsertLedgerEntry</members>
+  </types>
+  <version>41.0</version>
+</Package>
